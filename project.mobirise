@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#2969b0",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -16,13 +16,13 @@
         "subtitleFont": "Lora",
         "textFont": "Raleway",
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": true,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 2,
+    "uniqCompNum": 9,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -40,19 +40,129 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_styles": {
-            "DIV": {
-              "text-align": "center"
+          "_name": "header2",
+          "_anchor": "header2-8",
+          "_params": {
+            "imageSize": "36",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/untitled-1-copy-2000x1454.jpg",
+            "bgColor": "#b484f6",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/up-5-1400x1750.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
             }
           },
-          "_anchor": "content1-1",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
+          "title": "Warm Welcome&nbsp;",
+          "text": "Sudip Poudel<br>I am a web developer and designer. Contact me , for what i can help you.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "P": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "14px"
+            },
+            "I": {
+              "font-size": "13px"
+            },
+            "B": {
+              "font-size": "25px"
+            },
+            "UL": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "18px"
+            }
           },
-          "text": "<h1>Sudip Poudel</h1><div><div>This site is under development.</div></div>"
+          "_anchor": "contacts4-7",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/background-copy-2000x1000.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#278f45"
+          },
+          "text1": "<b>Contact</b>&nbsp;<br>\nEmail : sudippoudeler@gmail.com<br>\nPhone : +977 9844156370<br>Viber : 9844156370 (Nepal)<br><br><br><br><br><br><br><i><br></i><br><i><br></i><i><br></i><br><br><br><br><br><br><i>Copy right 2017&nbsp;</i>",
+          "text2": "<p class=\"mbr-contacts__text\"><b>Find me on&nbsp;</b></p><ul class=\"mbr-contacts__list\"><li>&nbsp;<a href=\"https://www.facebook.com/apexsudip.paudel/\" target=\"_blank\">Facebook</a></li><li>LinkedIn</li><li><i>Twitter</i></li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "sudippoudeler@gmail.com",
+            "alerts": {
+              "success": "Thanks for your message !!!!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact</a>"
         }
       ]
     }
