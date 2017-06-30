@@ -41,6 +41,14 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "header2-8",
           "_params": {
             "imageSize": "36",
@@ -86,15 +94,7 @@
           },
           "title": "Warm Welcome&nbsp;",
           "text": "Sudip Poudel<br>I am a web developer and designer. Contact me , for what i can help you.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_styles": {
-            ".mbr-section-text": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "text-align": "center"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_tags": [
@@ -129,7 +129,7 @@
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.9",
+            "overlayOpacity": "0.8",
             "overlayColor": "#278f45"
           },
           "text1": "<b>Contact</b>&nbsp;<br>\nEmail : sudippoudeler@gmail.com<br>\nPhone : +977 9844156370<br>Viber : 9844156370 (Nepal)<br><br><br><br><br><br><br><i><br></i><br><i><br></i><i><br></i><br><br><br><br><br><br><i>Copy right 2017&nbsp;</i>",
